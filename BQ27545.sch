@@ -5625,6 +5625,9 @@ Allows current flow in one direction, but allows reverse flow when above breakdo
 </library>
 </libraries>
 <attributes>
+<attribute name="CNAME" value="BQ27545 Fuel Gauge Board"/>
+<attribute name="CREVISION" value="1a"/>
+<attribute name="DESIGNER" value="ugurkrcl"/>
 </attributes>
 <variantdefs>
 </variantdefs>
@@ -5633,7 +5636,11 @@ Allows current flow in one direction, but allows reverse flow when above breakdo
 </class>
 </classes>
 <parts>
-<part name="FRAME1" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FRAME-A4L" device=""/>
+<part name="FRAME1" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FRAME-A4L" device="">
+<attribute name="CNAME" value=""/>
+<attribute name="CREVISION" value=""/>
+<attribute name="DESIGNER" value=""/>
+</part>
 <part name="U$1" library="ugurkrcl" deviceset="BAT_COMM_PWR_REV" device=""/>
 <part name="BAT-" library="ugurkrcl" deviceset="BAT_TAB" device=""/>
 <part name="BAT+" library="ugurkrcl" deviceset="BAT_TAB" device=""/>
@@ -5668,6 +5675,9 @@ Allows current flow in one direction, but allows reverse flow when above breakdo
 <attribute name="DRAWING_NAME" x="186.69" y="16.51" size="2.54" layer="94" font="vector"/>
 <attribute name="LAST_DATE_TIME" x="186.69" y="11.43" size="2.286" layer="94" font="vector"/>
 <attribute name="SHEET" x="200.66" y="6.35" size="2.54" layer="94" font="vector"/>
+<attribute name="CNAME" x="186.69" y="21.59" size="2.54" layer="94" font="vector"/>
+<attribute name="DESIGNER" x="231.34" y="11.43" size="2.54" layer="94" font="vector"/>
+<attribute name="CREVISION" x="240" y="6.25" size="2.54" layer="94" font="vector"/>
 </instance>
 <instance part="U$1" gate="G$1" x="254" y="93.98" smashed="yes"/>
 <instance part="BAT-" gate="G$1" x="20.32" y="83.82" smashed="yes" rot="R180">
